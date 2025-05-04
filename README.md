@@ -85,10 +85,10 @@ Edit your crontab:
 crontab -e
 ```
 
-Add this line to run daily at 8:00 AM:
+Add this line to run daily at 18:00:
 
 ```bash
-0 8 * * * /Users/yourusername/miniconda3/envs/ib-portfolio/bin/python /full/path/to/portfolio_report.py
+0 18 * * * /Users/[yourusername]/miniconda3/envs/portfoliostocks/bin/python /[full_path_to]/portfolio_report.py
 ```
 
 ---
