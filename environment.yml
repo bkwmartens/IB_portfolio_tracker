@@ -1,0 +1,12 @@
+name: portfoliostocks
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - ib_insync
+    - yfinance
+    - pandas
+    - python-dotenv
